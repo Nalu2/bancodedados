@@ -39,16 +39,16 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`cod_cliente`, `cpf_cliente`, `endereco_cliente`, `nome_cliente`) VALUES
-('472', '123.456.789-00', 'Rua Exemplo, 123', 'Janaina'),
-('39', '987.654.321-01', 'Avenida Principal, 456', 'Alberto'),
-('845', '555.555.555-55', 'Travessa do Centro, 789', 'Carlos'),
-('12', '111.222.333-44', 'Rua da Amostra, 789', 'Daiana'),
-('736', '444.333.222-11', 'Avenida Central, 987', 'Rosa'),
-('198', '999.888.777-66', 'Rua da Simulação, 567', 'Rafaela'),
-('2', '777.888.999-00', 'Avenida Modelo, 345', 'Mario'),
-('3', '222.333.444-55', 'Travessa Abstrata, 123', 'Claudio'),
-('697', '666.777.888-99', 'Rua Genérica, 789', 'Marcia'),
-('42', '333.444.555-66', 'Avenida Imaginária, 234', 'Sandra')
+('472', '12345678900', 'Rua Exemplo, 123', 'Janaina'),
+('39', '98765432101', 'Avenida Principal, 456', 'Alberto'),
+('845', '55555555555', 'Travessa do Centro, 789', 'Carlos'),
+('12', '11122233344', 'Rua da Amostra, 789', 'Daiana'),
+('736', '44433322211', 'Avenida Central, 987', 'Rosa'),
+('198', '99988877766', 'Rua da Simulação, 567', 'Rafaela'),
+('2', '77788899900', 'Avenida Modelo, 345', 'Mario'),
+('3', '22233344455', 'Travessa Abstrata, 123', 'Claudio'),
+('697', '66677788899', 'Rua Genérica, 789', 'Marcia'),
+('42', '33344455566', 'Avenida Imaginária, 234', 'Sandra')
 
 
 --
