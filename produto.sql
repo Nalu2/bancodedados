@@ -41,9 +41,11 @@ CREATE TABLE `produto` (
 --
 
 INSERT INTO `produto` (`cod_produto`, `tipo_produto`, `marca_produto`, `valor_produto`, `fk_compra_cod_compra`, `fk_funcionario_cod_funcionario`) VALUES
-(11, 'Eletrônico', 'Sony', 19.99, 11111, 1063),
-(12, 'Vestuário', 'Nike', 9.99, 11111, 1086),
-(13, 'Móveis', 'IKEA', 10.01, 11111, 1204),
+
+(11, 'Alimentos', 'Nestlé', 10.0, '11111', '1063'),
+(12, 'Móveis', 'IKEA', 10.01, '11111', '1063'),
+(13, 'Vestuário', 'Nike', 9.99, '11111', '1063'),
+(14, 'Eletrônico', 'Sony', 9.99, '11111', '1063'),
 (15, 'Eletrônico', 'Sony', 19.99, 12345, 1086),
 (16, 'Vestuário', 'Nike', 9.99, 12345, 1086),
 (17, 'Móveis', 'IKEA', 25.51, 12345, 1086),
